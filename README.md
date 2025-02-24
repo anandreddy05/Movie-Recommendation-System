@@ -58,35 +58,51 @@ This project is a **Movie Recommendation System** built using **Python** and pow
 
 ### 🔹 1. Clone the Repository
 
-```sh
+```bash
 git clone https://github.com/anandreddy05/Movie-Recommendation-System.git
-``bash
+```
+
+```bash
 cd Movie-Recommendation-System
-``
+```
+
 # Create a virtual environment
-``bash
+
+```bash
 python -m venv venv
-``
+```
+
 # Activate the virtual environment
+
 # On Windows:
+
+```bash
 venv\Scripts\activate
+```
 
 # On macOS/Linux:
+
+```bash
 source venv/bin/activate
+```
 
 # Install Dependencies
-``bash
+
+```bash
 pip install -r requirements.txt
-``
+```
+
 # To run the file
 
-``bash
+```bash
 streamlit run app.py
-``
+```
+
 - Example
-Enter a movie name: Avatar
+  Enter a movie name: Avatar
 
 # Recommendations:
+
 1. Pirates of the Caribbean: At World's End
 2. Spectre
 3. The Dark Knight Rises
@@ -94,9 +110,9 @@ Enter a movie name: Avatar
 5. Guardians of the Galaxy
 
 # Key Libraries Used
+
 - Pandas → Data manipulation and preprocessing.
 - NumPy → Numerical operations.
 - NLTK → Stemming text data.
 - Scikit-learn → Vectorization and similarity calculations.
 - Streamlit → Web-based user interface.
-```
